@@ -54,14 +54,14 @@ public class reverse
 
     static void Main(string[] args)
     {
-        Console.Write("Enter a number to reverse: ");
+        Console.Write("Enter a number: ");
         int number = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Reversed number: {0}", RevNum(number));
+        Console.WriteLine("Reversed number: "+ RevNum(number));
     }
 }
 ```
 ## Output:
-![image](https://github.com/ramjan1729/Single-server-infinite-capacity---Markov-Model/assets/94174503/14b519fe-57d2-44a6-97fb-a5376f3d8c37)
+![image](https://github.com/ramjan1729/Single-server-infinite-capacity---Markov-Model/assets/94174503/e21d3e41-9d6c-4217-882e-41d5eb0406ed)
 
 ## Result:
 Thus C# program to reverse a number using recursive function is written and executed sucessfully.
